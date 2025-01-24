@@ -2,7 +2,7 @@ import mongoose, { Query, set } from "mongoose";
 import { Elysia, t } from "elysia";
 import { jobs as JobsModel } from "./schema";
 
-await mongoose.connect('mongodb+srv://hugo:95DpDWfXB9Kwr9rh@cluster0.6aom8.mongodb.net/Fullstack?retryWrites=true&w=majority&appName=Cluster0')
+await mongoose.connect('PRIVATE')
 
 const app = new Elysia();
 
